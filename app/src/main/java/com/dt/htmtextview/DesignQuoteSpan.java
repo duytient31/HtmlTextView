@@ -27,7 +27,7 @@ public class DesignQuoteSpan implements LeadingMarginSpan, LineBackgroundSpan {
     private int backgroundColor, stripColor;
     private float stripeWidth, gap;
 
-    DesignQuoteSpan(int backgroundColor, int stripColor, float stripWidth, float gap) {
+    public  DesignQuoteSpan(int backgroundColor, int stripColor, float stripWidth, float gap) {
         this.backgroundColor = backgroundColor;
         this.stripColor = stripColor;
         this.stripeWidth = stripWidth;

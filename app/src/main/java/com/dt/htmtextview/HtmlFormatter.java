@@ -38,7 +38,7 @@ public class HtmlFormatter {
         );
     }
 
-    interface TagClickListenerProvider {
+    public  interface TagClickListenerProvider {
         OnClickATagListener provideTagClickListener();
     }
 
